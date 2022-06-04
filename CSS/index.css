@@ -1,0 +1,91 @@
+body{
+    background: rgb(131, 253, 158);
+    margin: 0px;
+    padding: 0px;
+}
+/* Division 1 */
+.header1{
+   border-style:groove;
+   padding-top: 25px;
+   background: rgb(147, 182, 144);
+   border: none;
+   /* border-radius: 20px; */
+}
+.header1 > nav{
+    display:flex;
+    justify-content:space-between;
+    height:100px;
+}
+.name{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.header1 > nav > ul{
+    display: flex;
+}
+
+.header1 > nav > ul > li{
+    list-style:none;
+    padding:0px 20px;
+}
+
+.header1 > nav > ul > li > a{
+    text-decoration:none;
+}
+.profile-image img{
+    width:700px;
+    height: 850px;
+    margin: -5px;
+    /* border-radius: 15px; */
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    /* margin-right: 20px; */
+}
+
+.about-text{
+    display:flex;
+    justify-content:start;
+    align-items: center;
+    width:500px;
+    padding-top: 50px;
+}
+.Profile{
+    display:flex;
+    justify-content:space-between;
+    margin:50px 10px;
+    padding-top: 15px;
+}
+
+.text{
+    height:300px;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    /* overflow:hidden; */
+}
+
+.text > h1{
+    font-size:48px;
+    font-weight:400;
+}
+
+.text > h3{
+    color:rgb(110, 110, 110);
+    font-family:'Poppins', sans-serif;
+    font-weight:400;
+    max-width:400px;
+    align-items:flex-start;
+    font-style: italic;
+}
+
+.button{
+    padding:20px 10px;
+    position:relative;
+    width:150px;
+    border-radius:12px;
+    background-color: rgb(147, 182, 144);
+    border: none;
+    text-align: center;
+}
+
