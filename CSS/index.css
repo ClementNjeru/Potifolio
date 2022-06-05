@@ -84,7 +84,7 @@ body{
     position:relative;
     width:150px;
     border-radius:12px;
-    background-color: rgb(100, 90, 247);
+    /* background-color: rgb(100, 90, 247); */
     border: none;
     text-align: center;
 }
@@ -107,25 +107,29 @@ body{
 .page2{
     background-image: url("./CSS/Images/image3.jpeg");
 }
-.filling{
-padding: 25px;
-border-radius:15px ;
-background-color:rgb(100, 90, 247) ;
-}
+
 .btn {
-    background-color: #04AA6D;
-    color: rgb(167, 86, 243);
+    background-color: white;
+    color: black;
     padding: 12px 20px;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 .problem{
-    width: auto;
+    width: 100%;
     border-radius: 5px;
     margin-bottom: 15px;
     margin-top: 5px;
     resize: vertical;
+    padding: 10px;
     box-sizing: border-box;
-}
+    border: none;
 
+}
+.contact{
+    padding: 15px;
+    border-radius: 3px;
+    background-color: rgb(197, 198, 245);
+}
 
