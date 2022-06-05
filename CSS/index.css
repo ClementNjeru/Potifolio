@@ -88,4 +88,13 @@ body{
     border: none;
     text-align: center;
 }
-
+.About > h1{
+    font-weight: 900;
+    display: flex;
+}
+.About{
+    display: flex;
+}
+.about2{
+    background-color:  rgb(131, 253, 158);
+}
