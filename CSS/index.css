@@ -107,3 +107,25 @@ body{
 .page2{
     background-image: url("./CSS/Images/image3.jpeg");
 }
+.filling{
+padding: 25px;
+border-radius:15px ;
+background-color:rgb(100, 90, 247) ;
+}
+.btn {
+    background-color: #04AA6D;
+    color: rgb(167, 86, 243);
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.problem{
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+
