@@ -1,5 +1,5 @@
 body{
-    background: rgb(131, 253, 158);
+    background: rgb(158, 189, 230);
     margin: 0px;
     padding: 0px;
 }
@@ -7,7 +7,7 @@ body{
 .header1{
    border-style:groove;
    padding-top: 25px;
-   background: rgb(147, 182, 144);
+   background: rgb(210, 226, 248);
    border: none;
    /* border-radius: 20px; */
 }
@@ -84,7 +84,7 @@ body{
     position:relative;
     width:150px;
     border-radius:12px;
-    background-color: rgb(147, 182, 144);
+    background-color: rgb(100, 90, 247);
     border: none;
     text-align: center;
 }
@@ -94,7 +94,16 @@ body{
 }
 .About{
     display: flex;
+    padding: 50px;
 }
-.about2{
-    background-color:  rgb(131, 253, 158);
+/* .about2{
+    background-color:  rgb(131, 253, 158); */
+}
+.page2 img{
+    width: 250px;
+    margin: 30px 30px 30px 0;
+    /* background-image: url("./CSS/Images/image3.jpeg"); */
+}
+.page2{
+    background-image: url("./CSS/Images/image3.jpeg");
 }
