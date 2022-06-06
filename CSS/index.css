@@ -91,10 +91,27 @@ body{
 .About > h1{
     font-weight: 900;
     display: flex;
+    text-align: justify;
+}
+.abt > p{
+    justify-content: center;
+    align-items: flex-end;
+    text-align: justify;
+    font-size: 20px;
 }
 .About{
     display: flex;
     padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 1em;
+}
+.About > *{
+    flex: 1px;
+}
+.abt{
+    margin-left: 25px;
 }
 /* .about2{
     background-color:  rgb(131, 253, 158); */

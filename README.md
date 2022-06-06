@@ -10,7 +10,7 @@ This is a platform that allows customers to be able to learn more about Clement 
 1.computer 2. An access to the Internet
 
 ## Installation Process
-Click on the link provided bellow to view the site. https://github.com/ClementNjeru/ClementNjeru-Independent-Project---Quiz-Board
+Click on the link provided bellow to view the site. https://github.com/ClementNjeru/Potifolio
 
 ## Technology Used
 HTML- which was used to build the structure of the pages.

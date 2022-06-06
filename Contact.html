@@ -22,13 +22,13 @@
             </nav>
         </div>
     <div class="contact">
-        <form action="filling">
+        <form onsubmit="return makeSubmission()" reset()>
             <label for="name">First Name</label>
-            <input type="text">
+            <input type="text" class="txt1">
             <label for="surname">Last Name</label>
-            <input type="text">
+            <input type="text" class="txt2">
             <label for="place">Residence</label>
-            <input type="text">
+            <input type="text" class="txt3">
 
             <select name="County" id="Constituency">
                 <option value="Nairobi North">Mathare</option>
@@ -39,7 +39,7 @@
             <label for="texts">Subject matter</label>
             <br><br>
             <textarea class="problem" placeholder="Brief service needed" style="height:300px"></textarea>
-            <button class="btn">Submit</button>
+            <input type="submit" value="Submit" class="btn-1">
         </form>
     </div>
     <footer>
@@ -48,5 +48,6 @@
             <a href="|njeruclement36@gmail.com||clement.kemaro@student.moringaschool.com|">|njeruclement36@gmail.com||clement.kemaro@student.moringaschool.com|</a>
         </p>
     </footer>
+    <script type="./index.js"></script>
 </body>
 </html>
